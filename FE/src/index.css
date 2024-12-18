@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .big-header {
+    @apply font-bold text-4xl;
+  }
+  .medium-header {
+    @apply font-bold text-2xl;
+  }
+  .small-header {
+    @apply font-bold text-base;
+  }
+  .primary-copy {
+    @apply font-light text-sm;
+  }
+  .card {
+    background-color: theme("colors.white");
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.6");
+  }
+  .sample-slider {
+    width: 70%;
+  }
+  .sample-slider img {
+    width: 100%;
+  }
+}
